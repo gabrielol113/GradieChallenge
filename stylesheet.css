@@ -79,3 +79,15 @@ div{
       border: none;
       border-bottom: 2px solid black;
   }
+
+  .button:hover {
+    background-color: white; /* Green */
+    border: 1px solid black;
+    color: #013243;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+  }
