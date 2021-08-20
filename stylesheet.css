@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 #Tab1 {
-    width: 300px;
+    width: 20%;
     height: 500px;
     text-decoration-color: white;
     background-color: #013243;
@@ -31,7 +31,7 @@ color: white;
 
 #Tab2 {
     background-color: white;
-    width: 300px;
+    width: 20%;
     height: 500px;
     padding: 10px;
     display: inline-block;
@@ -42,8 +42,8 @@ color: white;
 }
 
 img{
-    vertical-align: center;
-    width: 300px;
+    width: 100%;
+    min-width: 70%;
     height: 398px;
 }
 
@@ -62,6 +62,7 @@ div{
 }
 
 .button {
+    width: 75%;
     background-color: #013243; /* Green */
     border: none;
     color: white;
@@ -69,13 +70,13 @@ div{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 100%;
     border-radius: 7px;
   }
 
   .form {
       height: 20px;
-      width: 250px;
+      width: 80%;
       border: none;
       border-bottom: 2px solid black;
   }
@@ -90,4 +91,26 @@ div{
     display: inline-block;
     font-size: 16px;
     border-radius: 7px;
+  }
+
+  form a{
+    color: #013243;
+    text-emphasis: bold;
+  }
+
+
+
+
+  /* Media query */
+
+  @media only screen and (max-width: 1200px) {
+    img {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    #Folha1{
+        display: table-column;
+    }
   }
